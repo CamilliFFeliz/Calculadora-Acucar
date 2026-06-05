@@ -1,4 +1,4 @@
-﻿* {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -89,7 +89,7 @@ body {
 html {
   color-scheme: light;
   scroll-behavior: smooth;
-  scrollbar-color: rgba(225, 190, 231, 0.42) transparent;
+  scrollbar-color: rgba(247, 199, 211, 0.42) transparent;
   scrollbar-width: thin;
 }
 
@@ -129,7 +129,7 @@ body::before {
 *::-webkit-scrollbar-thumb {
   border: 2px solid rgba(10, 7, 16, 0.96);
   border-radius: 999px;
-  background: rgba(225, 190, 231, 0.42);
+  background: rgba(247, 199, 211, 0.42);
 }
 
 button,
@@ -216,7 +216,7 @@ select:focus,
 textarea:focus {
   border-color: var(--purple-light);
   background: var(--field-background-focus);
-  box-shadow: 0 0 0 4px rgba(106, 27, 154, 0.24);
+  box-shadow: 0 0 0 4px rgba(107, 63, 34, 0.24);
 }
 
 input[type="number"] {
@@ -362,7 +362,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 18px;
   background:
-    linear-gradient(135deg, rgba(225, 190, 231, 0.24), rgba(106, 27, 154, 0.58)),
+    linear-gradient(135deg, rgba(247, 199, 211, 0.24), rgba(107, 63, 34, 0.58)),
     var(--purple-dark);
   box-shadow: var(--shadow-purple);
 }
@@ -424,7 +424,7 @@ p {
   height: 34px;
   place-items: center;
   border-radius: 14px;
-  background: rgba(106, 27, 154, 0.34);
+  background: rgba(107, 63, 34, 0.34);
   color: var(--white);
 }
 
@@ -696,7 +696,7 @@ p {
   pointer-events: none;
   border-radius: 999px;
   background:
-    radial-gradient(circle, rgba(216, 180, 254, 0.34), rgba(216, 180, 254, 0) 68%);
+    radial-gradient(circle, rgba(232, 198, 132, 0.34), rgba(232, 198, 132, 0) 68%);
 }
 
 .hero-card::before {
@@ -723,7 +723,7 @@ p {
   border: 1px dashed rgba(154, 97, 40, 0.34);
   border-radius: var(--radius-large);
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.86), rgba(250, 245, 255, 0.74)),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.86), rgba(255, 248, 225, 0.74)),
     #FFFFFF;
   color: var(--text-primary);
   text-align: center;
@@ -794,7 +794,7 @@ label.secondary-button {
   padding: 0 18px;
   color: #FFFFFF;
   background:
-    linear-gradient(135deg, rgba(225, 190, 231, 0.22), rgba(106, 27, 154, 0.78)),
+    linear-gradient(135deg, rgba(247, 199, 211, 0.22), rgba(107, 63, 34, 0.78)),
     var(--purple);
   box-shadow: var(--shadow-purple);
 }
@@ -810,7 +810,7 @@ label.secondary-button {
 .client-pdf-button {
   border-color: rgba(154, 97, 40, 0.28);
   background:
-    linear-gradient(135deg, rgba(246, 240, 255, 0.72), rgba(233, 213, 255, 0.42)),
+    linear-gradient(135deg, rgba(255, 248, 225, 0.72), rgba(255, 240, 188, 0.42)),
     var(--button-muted-background);
 }
 
@@ -896,7 +896,7 @@ label.secondary-button:hover {
   height: 52px;
   place-items: center;
   border-radius: 18px;
-  background: rgba(106, 27, 154, 0.34);
+  background: rgba(107, 63, 34, 0.34);
   color: var(--white);
 }
 
@@ -984,7 +984,7 @@ label.secondary-button:hover {
   inset: auto 18px 0 18px;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(90deg, transparent, rgba(225, 190, 231, 0.5), transparent);
+  background: linear-gradient(90deg, transparent, rgba(247, 199, 211, 0.5), transparent);
 }
 
 .feature-card strong {
@@ -1132,7 +1132,7 @@ label.secondary-button:hover {
   justify-content: center;
   padding: 0 8px;
   border-radius: 999px;
-  background: rgba(106, 27, 154, 0.38);
+  background: rgba(107, 63, 34, 0.38);
   color: var(--white);
   font-size: clamp(0.72rem, 2.4vw, 0.8rem);
 }
@@ -1228,7 +1228,7 @@ label.secondary-button:hover {
   overflow: hidden;
   border: 1px solid var(--glass-border-strong);
   border-radius: 999px;
-  background: rgba(106, 27, 154, 0.28);
+  background: rgba(107, 63, 34, 0.28);
   color: var(--white);
   font-size: clamp(0.72rem, 2.6vw, 0.8rem);
   font-weight: 850;
@@ -1307,7 +1307,7 @@ label.secondary-button:hover {
 }
 
 .card-menu-panel button:hover {
-  background: rgba(106, 27, 154, 0.24);
+  background: rgba(107, 63, 34, 0.24);
 }
 
 .card-menu-toggle .lucide,
@@ -1337,7 +1337,7 @@ label.secondary-button:hover {
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 20px;
   background:
-    linear-gradient(135deg, rgba(225, 190, 231, 0.24), rgba(106, 27, 154, 0.72)),
+    linear-gradient(135deg, rgba(247, 199, 211, 0.24), rgba(107, 63, 34, 0.72)),
     var(--purple-dark);
   box-shadow: var(--shadow-purple);
   color: var(--white);
@@ -1421,7 +1421,7 @@ label.secondary-button:hover {
 .stock-metric.is-featured {
   border-color: rgba(154, 97, 40, 0.24);
   background:
-    linear-gradient(135deg, rgba(233, 213, 255, 0.84), rgba(255, 255, 255, 0.94)),
+    linear-gradient(135deg, rgba(255, 240, 188, 0.84), rgba(255, 255, 255, 0.94)),
     #FFFFFF;
 }
 
@@ -1535,12 +1535,12 @@ label.secondary-button:hover {
 }
 
 .total-feature {
-  border-color: rgba(225, 190, 231, 0.24);
+  border-color: rgba(247, 199, 211, 0.24);
   background: var(--total-feature-background);
 }
 
 .suggested-price-card {
-  border-color: rgba(225, 190, 231, 0.34);
+  border-color: rgba(247, 199, 211, 0.34);
   background: var(--suggested-price-card-background);
 }
 
@@ -1670,7 +1670,7 @@ label.secondary-button:hover {
 }
 
 .quantity-stepper button:hover {
-  background: rgba(106, 27, 154, 0.28);
+  background: rgba(107, 63, 34, 0.28);
 }
 
 .quantity-stepper input {
@@ -2004,7 +2004,7 @@ label.secondary-button:hover {
   min-height: 34px;
   padding: 9px 12px;
   border-radius: 999px;
-  background: rgba(106, 27, 154, 0.34);
+  background: rgba(107, 63, 34, 0.34);
   color: var(--white);
 }
 
@@ -2031,7 +2031,7 @@ label.secondary-button:hover {
   margin-bottom: 12px;
   border: 1px solid var(--glass-border);
   border-radius: 14px;
-  background: rgba(106, 27, 154, 0.28);
+  background: rgba(107, 63, 34, 0.28);
   color: var(--purple-light);
 }
 
@@ -2056,7 +2056,7 @@ label.secondary-button:hover {
 .category-choice.is-active {
   border-color: var(--purple-light);
   background: rgba(154, 97, 40, 0.12);
-  box-shadow: 0 14px 38px rgba(106, 27, 154, 0.18);
+  box-shadow: 0 14px 38px rgba(107, 63, 34, 0.18);
 }
 
 .dynamic-fields-grid {
@@ -2085,11 +2085,11 @@ label.secondary-button:hover {
   gap: 8px;
   align-items: center;
   padding: 16px;
-  border: 1px solid rgba(225, 190, 231, 0.28);
+  border: 1px solid rgba(247, 199, 211, 0.28);
   border-radius: var(--radius-large);
   background:
-    linear-gradient(135deg, rgba(106, 27, 154, 0.3), rgba(255, 255, 255, 0.055)),
-    rgba(106, 27, 154, 0.18);
+    linear-gradient(135deg, rgba(107, 63, 34, 0.3), rgba(255, 255, 255, 0.055)),
+    rgba(107, 63, 34, 0.18);
 }
 
 .unit-cost-preview strong {
@@ -2160,7 +2160,7 @@ label.secondary-button:hover {
   min-height: var(--touch-target);
   padding: 0 14px;
   border-radius: 8px;
-  box-shadow: 0 12px 28px rgba(106, 27, 154, 0.28);
+  box-shadow: 0 12px 28px rgba(107, 63, 34, 0.28);
   font-size: clamp(0.82rem, 2.8vw, 0.9rem);
 }
 
@@ -2242,7 +2242,7 @@ label.secondary-button:hover {
 
 .report-card-feature {
   background:
-    linear-gradient(135deg, rgba(106, 27, 154, 0.28), rgba(255, 255, 255, 0.055)),
+    linear-gradient(135deg, rgba(107, 63, 34, 0.28), rgba(255, 255, 255, 0.055)),
     var(--glass-surface);
 }
 
@@ -2296,9 +2296,9 @@ label.secondary-button:hover {
   height: 100%;
   border-radius: inherit;
   background:
-    linear-gradient(90deg, rgba(225, 190, 231, 0.88), rgba(106, 27, 154, 0.88)),
+    linear-gradient(90deg, rgba(247, 199, 211, 0.88), rgba(107, 63, 34, 0.88)),
     var(--purple);
-  box-shadow: 0 0 22px rgba(106, 27, 154, 0.45);
+  box-shadow: 0 0 22px rgba(107, 63, 34, 0.45);
 }
 
 .brand-block strong,
@@ -2392,7 +2392,7 @@ label.secondary-button:hover {
 .image-upload-card,
 .reference-preview {
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(250, 245, 255, 0.9)),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 248, 225, 0.9)),
     #FFFFFF;
 }
 
@@ -2948,9 +2948,9 @@ body.has-mobile-budget-summary .content-shell {
 :root {
   --purple-dark: #5B2A86;
   --purple: #9D6FEA;
-  --purple-light: #B784F3;
-  --background: #FCF9FF;
-  --body-background: linear-gradient(180deg, #FFFFFF 0%, #FCF9FF 58%, #F4EAFF 100%);
+  --purple-light: #D09A3E;
+  --background: #FFFDF7;
+  --body-background: linear-gradient(180deg, #FFFFFF 0%, #FFFDF7 58%, #FFF0BC 100%);
   --glass-border: rgba(107, 63, 34, 0.12);
   --glass-border-strong: rgba(107, 63, 34, 0.22);
   --text-primary: #2F2438;
@@ -3183,7 +3183,7 @@ label.secondary-button,
   min-height: 58px;
   padding: 0 18px;
   border-color: rgba(107, 63, 34, 0.18);
-  background: #F6EDFF;
+  background: #FFF8E1;
   color: var(--purple-dark);
   font-size: 1rem;
 }
@@ -3383,7 +3383,7 @@ label.secondary-button,
   padding: 0;
   border: 1px solid rgba(107, 63, 34, 0.16);
   border-radius: 999px;
-  background: #F7F0FF;
+  background: #FFF8E1;
   color: var(--purple-dark);
   box-shadow: none;
   transition: transform 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
@@ -3396,7 +3396,7 @@ label.secondary-button,
 .cart-header-button:hover,
 .cart-header-button:focus-visible {
   border-color: rgba(107, 63, 34, 0.28);
-  background: #EFE2FF;
+  background: #F7E0A1;
   transform: translateY(-1px);
 }
 
@@ -3525,7 +3525,7 @@ body.has-cart-fab .app-update-toast {
   padding: 11px 12px;
   border: 1px solid rgba(107, 63, 34, 0.1);
   border-radius: 18px;
-  background: #FBF7FF;
+  background: #FFFDF7;
 }
 
 .inventory-card-data span {
@@ -3564,7 +3564,7 @@ body.has-cart-fab .app-update-toast {
   padding: 0;
   border-color: rgba(107, 63, 34, 0.15);
   border-radius: 999px;
-  background: #F6EDFF;
+  background: #FFF8E1;
   color: var(--purple-dark);
 }
 
@@ -3580,7 +3580,7 @@ body.has-cart-fab .app-update-toast {
 .card-menu-toggle:focus-visible,
 .card-menu.is-open .card-menu-toggle {
   border-color: rgba(107, 63, 34, 0.28);
-  background: #EFE2FF;
+  background: #F7E0A1;
 }
 
 .card-menu-panel {
@@ -3666,7 +3666,7 @@ body.has-cart-fab .app-update-toast {
   padding: 0;
   border: 1px solid rgba(107, 63, 34, 0.18);
   border-radius: 999px;
-  background: linear-gradient(135deg, #FFFFFF 0%, #F4E9FF 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF0BC 100%);
   color: var(--purple-dark);
   box-shadow: 0 12px 24px rgba(107, 63, 34, 0.18);
   cursor: pointer;
@@ -3777,7 +3777,7 @@ body.has-cart-fab .app-update-toast {
 #budgetScreen .budget-details-grid .form-field input:focus,
 #budgetScreen .budget-details-grid .form-field select:focus {
   border-color: rgba(107, 63, 34, 0.34);
-  box-shadow: 0 0 0 3px rgba(216, 180, 254, 0.32);
+  box-shadow: 0 0 0 3px rgba(232, 198, 132, 0.32);
 }
 
 #budgetScreen .budget-details-grid .inline-input-group {
@@ -3792,7 +3792,7 @@ body.has-cart-fab .app-update-toast {
   padding: 16px;
   border: 1px dashed rgba(107, 63, 34, 0.22);
   border-radius: 22px;
-  background: #FCF8FF;
+  background: #FFFDF7;
   box-shadow: none;
 }
 
