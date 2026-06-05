@@ -1,7 +1,7 @@
-const CACHE_NAME = "fio-acucar-v1.0.11-budget-card";
+const CACHE_NAME = "fio-acucar-v1.0.12-pages";
 const APP_CACHE_PREFIX = "fio-acucar-";
 const APP_SHELL_URL = "./index.html";
-const RUNTIME_CACHE_NAME = "fio-acucar-runtime-v1.0.11-budget-card";
+const RUNTIME_CACHE_NAME = "fio-acucar-runtime-v1.0.12-pages";
 const LUCIDE_CDN_URL = "https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js";
 const JSPDF_CDN_URL = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js";
 const EXTERNAL_ASSET_URLS = [
@@ -11,6 +11,7 @@ const EXTERNAL_ASSET_URLS = [
 const APP_ASSETS = [
   "./",
   APP_SHELL_URL,
+  "./404.html",
   "./style.css",
   "./app.js",
   "./js/main.js",

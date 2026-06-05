@@ -1,7 +1,7 @@
 const APP_CACHE_PREFIX = "fio-acucar-";
 const CURRENT_CACHE_NAMES = [
-  "fio-acucar-v1.0.11-budget-card",
-  "fio-acucar-runtime-v1.0.11-budget-card"
+  "fio-acucar-v1.0.12-pages",
+  "fio-acucar-runtime-v1.0.12-pages"
 ];
 
 let hasReloadedForUpdate = false;

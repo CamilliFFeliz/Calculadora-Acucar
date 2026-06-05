@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Fio & Açucar</title>
+</head>
+<body>
+  <script>
+    const screenRoutes = new Map([
+      ["inicio", "inicio"],
+      ["home", "inicio"],
+      ["estoque", "estoque"],
+      ["inventory", "estoque"],
+      ["orcamento", "orcamento"],
+      ["budget", "orcamento"],
+      ["relatorios", "relatorios"],
+      ["reports", "relatorios"]
+    ]);
+    const pathParts = window.location.pathname.split("/").filter(Boolean);
+    const lastPart = (pathParts[pathParts.length - 1] || "").toLowerCase();
+    const hash = screenRoutes.get(lastPart) || "inicio";
+    const repoBase = pathParts.length > 1 ? `/${pathParts[0]}/` : "/";
+
+    window.location.replace(`${window.location.origin}${repoBase}#${hash}`);
+  </script>
+</body>
+</html>
