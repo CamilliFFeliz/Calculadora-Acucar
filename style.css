@@ -2946,8 +2946,8 @@ body.has-mobile-budget-summary .content-shell {
    Objetivo: público idoso, toque amplo e dropdown sempre acima.
    ========================================================= */
 :root {
-  --purple-dark: #5B2A86;
-  --purple: #9D6FEA;
+  --purple-dark: #5B2F1E;
+  --purple: #9A6128;
   --purple-light: #D09A3E;
   --background: #FFFDF7;
   --body-background: linear-gradient(180deg, #FFFFFF 0%, #FFFDF7 58%, #FFF0BC 100%);
